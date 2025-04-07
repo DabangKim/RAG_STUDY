@@ -20,3 +20,4 @@ python-pptx
 unstructured
 "unstructured[pdf]"
 sentence-transformers
+grandalf
