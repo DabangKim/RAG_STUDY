@@ -21,3 +21,5 @@ unstructured
 "unstructured[pdf]"
 sentence-transformers
 grandalf
+
+streamlit
