@@ -14,11 +14,6 @@ from langchain.chains import create_history_aware_retriever, create_retrieval_ch
 from langchain_core.runnables.history import RunnableWithMessageHistory
 from langchain_community.chat_message_histories.streamlit import StreamlitChatMessageHistory
 
-# 0-1 sqlite3 의존성 문제 해결 -> pysqlite3로 대체
-__import__('pysqlite3')
-import sys
-sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
-
 
 
 # 1. PDF 문서 로드 및 벡터화 함수

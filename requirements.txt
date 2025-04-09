@@ -24,3 +24,5 @@ grandalf
 
 streamlit
 pysqlite3-binary
+
+faiss-cpu
